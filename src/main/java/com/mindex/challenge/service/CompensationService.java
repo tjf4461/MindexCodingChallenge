@@ -12,8 +12,8 @@ public interface CompensationService {
 
 
     /**
-     * Endpoint to read a Compensation object from the database.
-     * url endpoint ends with /compensation/{id}
+     * Endpoint to create a Compensation object and insert it in the database.
+     * url endpoint ends with /compensation
      */
     Compensation create(Compensation compensation);
     
