@@ -65,13 +65,13 @@ public class CompensationServiceImplTest {
 
 
         // Read checks
-        Compensation readCompensation = restTemplate.getForEntity(compensationIdUrl, Compensation.class, id)).getBody();
+        Compensation readCompensation = restTemplate.getForEntity(compensationIdUrl, Compensation.class, id).getBody();
         assertCompensationEquivalence(readCompensation, createdCompensation);
     }
       
     /**
      * Test to compare two Employee objects. Verifies that the state of both are identical.
-     
+     *
      * @param expected: the controlled Employee object
      * @param actual: the received Employee object
      */
