@@ -21,7 +21,6 @@ import static org.junit.Assert.assertNotNull;
  * Accesses the REST endpoint to create a ReportingStructure for John Lennon and verifies that the reporting data is correct.
  * 
  * @author Thomas Fuller
- * 
  */
 public class ReportingStructureServiceImplTest {
 

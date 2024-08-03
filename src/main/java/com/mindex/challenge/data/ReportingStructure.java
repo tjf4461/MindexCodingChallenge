@@ -2,8 +2,7 @@ package com.mindex.challenge.data;
 
 /**
  * This class represents an employee reporting hierarchy within a company.
- * Contains a reference to the corresponding employee object and can calculate
- * the number of employees below them in the subordinate tree.
+ * 
  * @author Thomas Fuller
  */
 public class ReportingStructure {

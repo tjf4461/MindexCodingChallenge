@@ -11,7 +11,9 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 /**
  * Controller for the ReportingStructure service.
- * Establishes the url for the endpoint. /reportingStructure/{id}
+ * Establishes the url for the endpoint.
+ * 
+ * @author Thomas Fuller
  */
 public class ReportingStructureController {
     private static final Logger LOG = LoggerFactory.getLogger(ReportingStructureController.class);
